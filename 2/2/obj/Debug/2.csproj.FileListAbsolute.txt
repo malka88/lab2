@@ -1,0 +1,15 @@
+C:\Users\Chudo\Source\Repos\lab2\2\2\bin\Debug\2.exe.config
+C:\Users\Chudo\Source\Repos\lab2\2\2\bin\Debug\2.exe
+C:\Users\Chudo\Source\Repos\lab2\2\2\bin\Debug\2.pdb
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.csprojAssemblyReference.cache
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\MainWindow.g.cs
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\App.g.cs
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2_MarkupCompile.cache
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2_MarkupCompile.lref
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\MainWindow.baml
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.g.resources
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\_2.Properties.Resources.resources
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.csproj.GenerateResource.cache
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.csproj.CoreCompileInputs.cache
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.exe
+C:\Users\Chudo\Source\Repos\lab2\2\2\obj\Debug\2.pdb
