@@ -25,7 +25,7 @@ namespace _5
             InitializeComponent();
         }
 
-        private void M1open_Click(object sender, RoutedEventArgs e)
+        private void mo_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
             dlg.FileName = "Document";
@@ -38,28 +38,32 @@ namespace _5
             System.IO.StreamReader file = new System.IO.StreamReader(dlg.FileName);
             while ((line = file.ReadLine()) != null)
             {
-                listBox.Items.Add(line);
+                lb.Items.Add(line);
             }
 
             file.Close();
         }
 
-        private void M1save_Click(object sender, RoutedEventArgs e)
+        private void ms_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
             dlg.FileName = "Document";
             dlg.DefaultExt = ".txt";
             dlg.Filter = "Text documents (.txt)|*.txt";
             dlg.ShowDialog();
-            //string[] lines = new string[100000];
 
             List<string> lines = new List<string>();
 
             using (System.IO.StreamWriter outputFile = new System.IO.StreamWriter(dlg.FileName))
             {
-                foreach (string line in listBox.Items)
+                foreach (string line in lb.Items)
                     outputFile.WriteLine(line.ToString());
             }
+
+        }
+
+        private void lb_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }

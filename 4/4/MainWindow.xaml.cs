@@ -30,17 +30,17 @@ namespace _4
             Timer.Interval = new TimeSpan(0, 0, 1);
         }
 
-        private void sb_Click(object sender, RoutedEventArgs e)
+        private void startb_Click(object sender, RoutedEventArgs e)
         {
             Timer.Start();
         }
 
-        private void mb_Click(object sender, RoutedEventArgs e)
+        private void stopb_Click(object sender, RoutedEventArgs e)
         {
             Timer.Stop();
         }
 
-        private void hb_Click(object sender, RoutedEventArgs e)
+        private void clearb_Click(object sender, RoutedEventArgs e)
         {
             Timer.Stop();
             sl.Content = "";
@@ -50,7 +50,7 @@ namespace _4
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            if (sc.IsChecked == true)
+            if (sch.IsChecked == true)
             {
                 sl.Content = DateTime.Now.Second;
             }
@@ -59,7 +59,7 @@ namespace _4
                 sl.Content = "";
             }
 
-            if (mc.IsChecked == true)
+            if (mch.IsChecked == true)
             {
                 ml.Content = DateTime.Now.Minute;
             }
@@ -68,7 +68,7 @@ namespace _4
                 ml.Content = "";
             }
 
-            if (hc.IsChecked == true)
+            if (hch.IsChecked == true)
             {
                 hl.Content = DateTime.Now.Hour;
             }
@@ -76,6 +76,23 @@ namespace _4
             {
                 hl.Content = "";
             }
+        }
+
+
+        private void hch_Checked(object sender, RoutedEventArgs e)
+        {
+
+
+        }
+
+        private void mch_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sch_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

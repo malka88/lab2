@@ -20,11 +20,11 @@
         <Label x:Name="sl" Grid.Column="0" Grid.ColumnSpan="1" Content="" HorizontalContentAlignment="Center"/>
         <Label x:Name="ml" Grid.Column="1" Grid.ColumnSpan="1" Content="" HorizontalContentAlignment="Center"/>
         <Label x:Name="hl" Grid.Column="2" Grid.ColumnSpan="1" Content="" HorizontalContentAlignment="Center"/>
-        <Button x:Name="sb" Grid.Column="0" Grid.Row="1" Content="Старт" Click="sb_Click"/>
-        <Button x:Name="mb" Grid.Column="1" Grid.Row="1" Content="Стоп" Click="mb_Click"/>
-        <Button x:Name="hb" Grid.Column="2" Grid.Row="1" Content="Сброс" Click="hb_Click"/>
-        <CheckBox x:Name="sc" Grid.Column="0" Grid.Row="2" Content="Секунды" Checked="sc_Checked"/>
-        <CheckBox x:Name="mc" Grid.Column="1" Grid.Row="2" Content="Минуты" Checked="mc_Checked"/>
-        <CheckBox x:Name="hc" Grid.Column="2" Grid.Row="2" Content="Часы" Checked="hc_Checked"/>
+        <Button x:Name="startb" Grid.Column="0" Grid.Row="1" Content="Старт" Click="startb_Click"/>
+        <Button x:Name="stopb" Grid.Column="1" Grid.Row="1" Content="Стоп" Click="stopb_Click"/>
+        <Button x:Name="clearb" Grid.Column="2" Grid.Row="1" Content="Сброс" Click="clearb_Click"/>
+        <CheckBox x:Name="sch" Grid.Column="0" Grid.Row="2" Content="Секунды" Checked="sch_Checked"/>
+        <CheckBox x:Name="mch" Grid.Column="1" Grid.Row="2" Content="Минуты" Checked="mch_Checked"/>
+        <CheckBox x:Name="hch" Grid.Column="2" Grid.Row="2" Content="Часы" Checked="hch_Checked"/>
     </Grid>
 </Window>

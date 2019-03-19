@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="300">
     <Grid>
-        <Menu HorizontalAlignment="Left" Height="20" Margin="0,2,0,0" VerticalAlignment="Top" Width="31">
-            <MenuItem x:Name="M1" Header="File">
-                <MenuItem x:Name="M1open" Header="Open" Click="M1open_Click"/>
-                <MenuItem x:Name="M1save" Header="Save" Click="M1save_Click"/>
+        <Menu HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="40">
+            <MenuItem x:Name="m" Header="File">
+                <MenuItem x:Name="mo" Header="Open" Click="mo_Click"/>
+                <MenuItem x:Name="ms" Header="Save" Click="ms_Click"/>
             </MenuItem>
         </Menu>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="378" Margin="10,31,0,0" VerticalAlignment="Top" Width="772" SelectionChanged="listBox_SelectionChanged"/>
-
+        <ListBox x:Name="lb"  Margin="0,21,0,0" SelectionChanged="lb_SelectionChanged"/>
     </Grid>
 </Window>
